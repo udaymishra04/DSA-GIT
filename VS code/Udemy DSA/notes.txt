@@ -1,0 +1,11 @@
+To search a substring in a string we can use "size_t" data structure.
+Syntax: 
+size_t found = s.find(s1);
+
+Here we are searching for substring s1 in string s. 
+this will return the index of the first occurance of the substring.
+If the substring is not present then it will return "string::npos".
+Example: 
+size_t found = str.find(str1);
+    if (found != string::npos)
+        cout << "First occurrence is " << found << endl;
